@@ -4,7 +4,7 @@ applications:
   - myMicroservicesSQL
   - myMicroservicesServiceDiscovery
 name: MicroservicesOrdersAPI
-host: Microservices-CatalogAPI-${random-word}
+host: Microservices-OrdersAPI-${random-word}
 path: ./defaultServer
 instances: 1
 memory: 512M
